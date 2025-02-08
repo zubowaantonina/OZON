@@ -4,7 +4,8 @@ import search from './search'
 const getData = (str) => {
     return fetch(
         // `https://ozon-test-js-default-rtdb.firebaseio.com/goods.json?${str ? `search=${str}` : ''}}`
-        `https://ozon-test-js-default-rtdb.firebaseio.com/goods.json`
+        // `https://ozon-test-js-default-rtdb.firebaseio.com/goods.json`
+        `https://o-ozone-glo-default-rtdb.firebaseio.com/goods.json`
         )
         .then((response) => {
             // new Notify({
